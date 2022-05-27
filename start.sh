@@ -3,9 +3,9 @@
 IMAGEVER="2.1"
 
 # Build Image
-docker build . -t jmusicbot:${IMAGEVER}
+docker build . -t d-jmusicbot:${IMAGEVER}
 # Run Image
 docker run -d \
  --mount type=bind,source="$(pwd)"/srv,target=/srv \
  --restart unless-stopped \
- jmusicbot:${IMAGEVER}
+ d-jmusicbot:${IMAGEVER}

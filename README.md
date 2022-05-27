@@ -6,7 +6,12 @@ Dockerized implementation of [jagrosh/MusicBot](https://github.com/jagrosh/Music
 
 ## Build and run manually
 Build
-``` docker build . -t jmusicbot:2.1 ```
+``` docker build . -t d-jmusicbot:2.1 ```
 
 Run
-``` docker run --mount type=bind,source="$(pwd)"/srv,target=/srv jmusicbot:2.1 ```
+```
+docker run -d \
+ --mount type=bind,source="$(pwd)"/srv,target=/srv \
+ --restart unless-stopped \
+ d-jmusicbot:2.1
+```
