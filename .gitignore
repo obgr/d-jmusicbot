@@ -1,0 +1,5 @@
+# Gitignore contents of srv
+srv/*.jar
+srv/config.txt
+srv/serversettings.json
+srv/Playlists/*
