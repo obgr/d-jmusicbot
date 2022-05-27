@@ -1,5 +1,5 @@
 # d-jmusicbot
-Dockerized implementation of jmusicbot
+Dockerized implementation of [jagrosh/MusicBot](https://github.com/jagrosh/MusicBot)
 
 ## Build and run
 ``` bash start.sh ```
