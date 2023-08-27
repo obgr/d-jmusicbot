@@ -7,7 +7,7 @@ Dockerized implementation of [jagrosh/MusicBot](https://github.com/jagrosh/Music
 ## Build and run manually
 Build
 
-``` docker build . -t d-jmusicbot:2.1 ```
+``` docker build . -t d-jmusicbot:2.2 ```
 
 Run
 ```

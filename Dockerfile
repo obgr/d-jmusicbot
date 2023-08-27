@@ -1,4 +1,4 @@
-FROM openjdk:18-slim-bullseye
+FROM openjdk:22-slim-bookworm
 
 RUN apt-get update
 RUN apt-get upgrade -y

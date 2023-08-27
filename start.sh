@@ -1,6 +1,6 @@
 #!/bin/bash
 # Vars
-IMAGEVER="2.1"
+IMAGEVER="2.2"
 
 # Build Image
 docker build . -t d-jmusicbot:${IMAGEVER}
